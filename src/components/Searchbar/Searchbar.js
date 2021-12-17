@@ -1,4 +1,4 @@
-import { Component } from 'react/cjs/react.development';
+import { Component } from 'react';
 import { toast } from 'react-toastify';
 import { ImSearch } from 'react-icons/im';
 import 'react-toastify/dist/ReactToastify.css';
