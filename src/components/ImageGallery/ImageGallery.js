@@ -5,9 +5,9 @@ import s from './ImageGallery.module.scss';
 function ImageGallery({ hits, onClick }) {
   return (
     <ul className={s.gallery}>
-      {hits.map(({ webformatURL, largeImageURL, tags }) => (
+      {hits.map(({ id, webformatURL, largeImageURL, tags }) => (
         <ImageGalleryItem
-          key={webformatURL}
+          key={id}
           src={webformatURL}
           largeImageURL={largeImageURL}
           tags={tags}
